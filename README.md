@@ -44,8 +44,10 @@ Response:
 Example Flow in Simple Terms
 🔐 Login:
 ➡️ You send your username/password ➔ Server verifies ➔ Gives you a token.
+
 🔓 Access a protected route:
 ➡️ Include your token in the request ➔ Server checks ➔ Grants access.
+
 🔄 Refresh your token:
 ➡️ When your old token expires, send the refresh token ➔ Get a new access token.
 
